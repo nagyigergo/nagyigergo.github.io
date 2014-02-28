@@ -3796,7 +3796,7 @@ exports.load = function(assetUrl, id) {
   skin.additionalSound = config.additionalSound;
   // Settings
   skin.graph = config.graph;
-  skin.background = skin.assetUrl('background.png');
+  skin.background = 'img/bsmbackg.png';
   skin.pegmanHeight = config.pegmanHeight || 48;
   skin.pegmanWidth = config.pegmanWidth || 60;
   skin.pegmanYOffset = config.pegmanYOffset || 0;
